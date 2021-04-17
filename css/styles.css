@@ -1,0 +1,49 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    height: 50vh;
+    width: 50vw;
+    align-items: center;
+    margin: auto;
+}
+
+h4{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+}
+h6{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    color:hsl(217, 19%, 35%); 
+}
+p{
+    color: hsl(214, 17%, 51%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+.col-md-4.imgleft{
+    background-image: url(../images/drawers.jpg);
+    /* you must place background size */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* you must give the background section a min-height to fill the col */
+    min-height: 349px;
+}
+.popover{
+    background:  hsl(217, 19%, 35%) !important;
+}
+
+.imgright{
+    background-color: white;
+    padding: 30px;
+}
+
+footer{
+    display: none;
+}
